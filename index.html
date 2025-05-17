@@ -1,13 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Refri Animado</title>
 </head>
 <body>
-    
-    <script src="script.js"></script>
+    <main>
+
+        <div class="item active" style="--background: #EA3D41">
+            <div class="title">Strawberry</div>
+            <img src="img/Morango-refrigerante-foregroundBlur.png" alt="fruit" class="fruit">
+            <img src="img/Morango-refrigerante.png" alt="" class="refri">
+        </div>
+
+        <div class="item" style="--background: #2D5643">
+            <div class="title">Avacado</div>
+            <img src="img/Abacate-refrigerante-foregroundBlur.png" alt="fruit" class="fruit">
+            <img src="img/Abacate-refrigerante.png" alt="" class="refri">
+        </div>
+
+        <div class="item hidden" style="--background: #EA7043">
+            <div class="title">Orange</div>
+            <img src="img/Laranja-refrigerante-foregroundBlur.png" alt="fruit" class="fruit">
+            <img src="img/Laranja-refrigerante.png" alt="" class="refri">
+        </div>
+
+        <div class="arrows">
+            <button id="prev"> < </button>
+            <button id="next"> > </button>
+        </div>
+        
+    </main>
+
+    <script src="index.js"></script>
 </body>
 </html>
